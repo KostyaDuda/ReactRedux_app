@@ -1,0 +1,24 @@
+.head{
+    background:  rgb(247, 30, 30);
+    /* height: 100px;
+    margin-top:-21px;  */
+    position: relative;
+    color: white;
+  }
+  #text_logo{
+    font-size:60px;
+    color: white;  
+  }
+  .head a{
+    color: white;
+    font-family:"Century Gothic";
+    font-size: 40px;
+    font-style:bold; 
+  }
+.list_routers h1{
+  padding-top:40px; 
+}
+#margin_logo{
+  margin-left: 470px;
+}
+

@@ -1,0 +1,61 @@
+.main{
+    width: auto;
+    margin-top:10%; 
+}
+table {   
+    width: 75%;
+    margin-left:10%; 
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border-spacing: 0;
+    text-align: center;
+    }
+    th {
+    background: rgb(247, 30, 30);
+    color: white;
+    text-shadow: 0 1px 1px #2D2020;
+    padding: 10px 20px;
+    }
+    th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color:  white;
+    }
+    th:first-child, td:first-child {
+    text-align: left;
+    }
+    th:first-child {
+    border-top-left-radius: 10px;
+    }
+    th:last-child {
+    border-top-right-radius: 10px;
+    border-right: none;
+    }
+    td {
+    padding: 10px 20px; 
+    background: #CBD0CD;
+    opacity: 0.9;
+    }
+    tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+    }
+    tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+    }
+    tr td:last-child {
+    border-right: none;
+    }
+
+    .table_price a {
+        display: inline-block;
+        padding: 5px 10px;
+        background: #F79361;
+        box-shadow: 2px 2px 0 0 #a22800;
+        position: relative;
+      }
+      .table_price a:hover {
+        box-shadow: none;
+        top: 2px;
+        left: 2px;
+      }
